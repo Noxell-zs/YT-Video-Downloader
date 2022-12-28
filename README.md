@@ -1,6 +1,6 @@
 # YouTube Video Downloader
 
-Simple Python application for downloading videos from YouTube
+Python application with a graphical interface for downloading videos from YouTube
 
 #### Dependencies
 To install Python packages, run  
