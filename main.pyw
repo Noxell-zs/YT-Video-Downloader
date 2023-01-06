@@ -128,7 +128,11 @@ class App(Tk):
         self.title("Video loader")
         self.geometry("512x256")
         self.config(bg="#544B64", cursor="arrow")
-        self.iconbitmap("icon.ico")
+
+        try:
+            self.iconbitmap("icon.ico")
+        except Exception as e:
+            print(e)
 
         stl = Style()
         stl.configure('Button.TLabel', padding=6, anchor="center",

@@ -1,0 +1,9 @@
+/venv
+icon.png
+interface.py
+/.idea
+
+/out
+/temp
+/dist
+/build
